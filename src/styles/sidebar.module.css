@@ -1,0 +1,81 @@
+.sidebar{
+    width: 15%;
+    height: 100%;
+    max-height: 100%;
+    background-color: black;
+}
+.head{
+    height: 10%;
+    background-color: #F04F58;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+}
+.background{
+    background-image: url('../assets/background.jfif');
+    background-size: cover;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    opacity: .4;
+    z-index: 1;
+
+}
+.details{
+    width: 100%;
+    height: 30%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.details img{
+    height: 80px;
+    width: 80px;
+}
+.userDetails{
+    z-index: 2;
+}
+
+.userDetails img{
+    opacity: 1;
+}
+
+.username{
+    height: 40px;
+    width: 80px;
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    box-shadow: 1px 3px 10px black;
+    margin-top: 10px;
+    text-transform: capitalize;
+    cursor: pointer;
+}
+
+.username:hover{
+    cursor: pointer;
+}
+
+.navOptions{
+    color: white;
+    height: 7%;
+    display: flex;
+    padding-left: 15%;
+    align-items: center;
+}
+.navOptions:hover{
+    cursor: pointer;
+    background-color: rgb(17, 17, 17);
+}
+.navOptions p{
+    margin-left: 15%;
+}
